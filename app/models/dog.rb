@@ -10,7 +10,9 @@ class Dog
    @@all << self
  end
 
-
+ def self.all
+     @@all
+ end
  
 end
 @dog = Dog.new("rudolph", "mastiff", 2)
