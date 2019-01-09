@@ -1,7 +1,7 @@
 require 'pry'
 class Dog 
  attr_accessor :name , :bread , :age
- @@all
+ @@all =[]
 
  def initialize ( name, bread , age)
    @name= name
