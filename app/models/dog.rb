@@ -8,13 +8,7 @@ class Dog
    @bread = bread
    @age = age  
  end
-
- 
-  
 end
 
-
-
-binding.pry
 
 
