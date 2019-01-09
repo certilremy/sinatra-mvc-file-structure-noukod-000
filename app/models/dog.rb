@@ -1,13 +1,20 @@
 require 'pry'
 class Dog 
  attr_accessor :name , :bread , :age
+ @@all
 
  def initialize ( name, bread , age)
    @name= name
    @bread = bread
-   @age = age  
+   @age = age 
+  @@all <<self
+    
  end
   
 end
 
+
+
 binding.pry
+
+
