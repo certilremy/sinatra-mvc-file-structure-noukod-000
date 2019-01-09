@@ -7,9 +7,10 @@ class Dog
    @name= name
    @bread = bread
    @age = age 
-  @@all <<self
-    
+   @@all <<self.new    
  end
+
+ 
   
 end
 
