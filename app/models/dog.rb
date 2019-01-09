@@ -11,8 +11,8 @@ class Dog
  
 end
 @dog = Dog.new("rudolph", "mastiff", 2)
-@dog.name
-@dog.age
-@dog.breed
+puts @dog.name
+puts @dog.age
+puts @dog.breed
 
 
