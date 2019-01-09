@@ -10,6 +10,9 @@ class Dog
  end
  
 end
-
+@dog = Dog.new("rudolph", "mastiff", 2)
+@dog.name
+@dog.age
+@dog.breed
 
 
