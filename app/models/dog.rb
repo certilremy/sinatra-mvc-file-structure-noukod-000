@@ -6,8 +6,7 @@ class Dog
  def initialize ( name, bread , age)
    @name= name
    @bread = bread
-   @age = age 
-   @@all <<self.new    
+   @age = age  
  end
 
  
